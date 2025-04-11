@@ -191,7 +191,7 @@ h6 {
 
 .social-detail ul,
 .social-icon ul,
-nav ul ,.mark ul{
+nav ul ,.mark ul,.menu-bar ul {
     display: flex;
 }
 
@@ -345,6 +345,7 @@ form {
     justify-content: center;
     display: flex;
 }
+/* blog  */
 .blog{
     position: absolute;
     background-color: white;
@@ -362,7 +363,159 @@ form {
     object-fit: cover; 
     margin-right: 45px;
 }
-/* .social-icon ul li:not(:last-child) */
 .blog-img4{
     margin-right: 0;
+}
+/* Courese Name */
+.first-row ul,.second-row ul,.third-row ul {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: nowrap;  
+    padding: 0;
+    justify-content: center;
+    gap: 40px; 
+    list-style: none;
+
+}
+.first-row ul li,.second-row ul li,.third-row ul li{
+    text-align: center;
+    min-width: 150px;
+}
+.first-row ul li h3,.second-row ul li h3,.third-row ul li h3{
+    color:#000000;
+    font-size: 16px;
+    font-weight: 500;
+}  
+.first-row ul li span,.second-row ul li span,.third-row ul li span{
+    font-size: 12px;
+    font-weight:400;
+    color:#5F6C76;
+}
+.course-name{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.third-row ul{
+    justify-content: flex-start; 
+}
+/* online courses */
+.online-course{
+    position: relative;
+    background-color:var(--bg-color1);
+    width:1320px;
+    height:1400px;
+    margin: 20px auto;
+    padding-top: 40px;
+}
+.btn-secondary{
+    display: inline-block;
+    padding:15px;
+    border-radius: 30px;
+    background-color: #E7DEFF;
+    color: #5F2DED;  
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top:0;
+    right:42%;
+}
+.btn-secondary span {
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 500;
+}
+.title h1{
+    padding-top: 30px;
+    color:#5F6C76;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+}
+.title span{
+    color: #5F6C76;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#F2277E;
+}
+.menu-bar{
+    position: relative;
+    display: flex;
+    background-color: #FFFFFF;
+    padding:20px;
+    margin-top: 20px;
+    width: 900px;
+    right:42%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+}
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.menu-bar ul li span{
+color:#5F6C76;
+font-size: 14px;
+font-weight: 400;   
+display: inline-block;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.menu-bar ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.menu-bar ul li:first-child a span{
+    color:#5F2DED;
+}
+.menu-bar ul li img {
+ margin-right: 30px;
+ margin-left: 30px;
+}
+.rectengle1 {
+    padding-top: 50px;
+    width: 1224px;
+    height: 1007px;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.learn-option{
+    height:476.6px;
+    width: 384px;
+    background-color: #ffffff;
+    margin-right: 20px;
+    position: relative;
+}
+.learn-option  img{
+    border-radius: 12px;
+    padding:20px;
+}
+.row-top, .row-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.detail p{
+    font-size: 14px;
+    color:black;
+    font-weight: 400;
+    margin-top:20px;
+}
+.detail{
+    display: flex;
 }
