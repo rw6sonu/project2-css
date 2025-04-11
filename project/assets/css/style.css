@@ -405,7 +405,7 @@ form {
     position: relative;
     background-color:var(--bg-color1);
     width:1320px;
-    height:1400px;
+    height:1330px;
     margin: 20px auto;
     padding-top: 40px;
 }
@@ -500,22 +500,199 @@ justify-content: center;
     background-color: #ffffff;
     margin-right: 20px;
     position: relative;
+    padding:20px;
 }
 .learn-option  img{
-    border-radius: 12px;
-    padding:20px;
+    border-radius: 10px;
 }
 .row-top, .row-bottom {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.detail p{
+.detail p,.detail span{
     font-size: 14px;
     color:black;
-    font-weight: 400;
+    font-weight: 500;
     margin-top:20px;
+    display: inline-block;
+} 
+.book-icon{
+    margin-right: 10px;
+    height:25px;
+    width: 20px;
+    margin-top: 20px;
+}  
+.detail span{
+    margin-left:10px;
 }
 .detail{
     display: flex;
+    margin-bottom: 10px;
 }
+.clock-icon{
+    margin-left: 70px;
+    margin-right: 10px;
+    height:20px;
+    width: 20px;
+    margin-top: 20px;
+}
+.heading h2{
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+    margin-bottom: 20px;
+}
+.heading p{
+color:#5F2DED;
+font-size: 16px;
+font-weight: 700;
+}
+.name{
+    height:46px;
+    width: 343px;
+    border-top:1px solid rgb(128, 128, 128,0.2);
+    margin-top: 22px;
+}
+.name span{
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:46px;
+}
+/* Registration Section */
+.numbers-detail{
+    display:flex; 
+    margin-right: 70px;
+}
+.numbers-detail img{
+    margin-right: 20px;
+    width: 50px;
+    height:52px;
+}
+.numbers-detail p{
+    text-transform: uppercase;
+    color:black;
+    font-size: 13px;
+    font-weight: 500;   
+}
+.numbers-detail h4{
+    font-size: 28px;
+    font-weight: 700;
+    color:black;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.register{
+    width: 1320px;
+    height:549px;
+    background-color: #ffffff;
+    background-image: url("../images/learn-option/image--2.png");
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+.register::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:hsl(252, 89%, 36%,0.9);
+    z-index:1;
+}
+.dot-image{
+    position: absolute;
+    z-index: 2;
+    top:15%;
+    left:10%;
+}
+.second-img{
+    position: absolute;
+    z-index: 2;
+    top:65%;
+    left:10%;
+}
+.triangle{
+    position: absolute;
+    z-index: 2;
+    top:45%;
+    left: 20%;
+}
+.btn-ternary{
+    display: inline-block;
+    padding:15px;
+    border-radius: 30px;
+    background-color: #E7DEFF;
+    color: #5F2DED;  
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 1;
+    position: absolute;
+    top:20%;
+    left:25%;
+}
+.btn-ternary span {
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 500;
+}
+.register-detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register-detail h2,
+  .register-detail p,
+  .register-detail h4,
+  .register-detail h5,
+  .register-detail .highlight-number {
+    color: #fff;
+    font-weight: 900;
+    margin: 10px 0;
+  }
+  
+  .register-detail h2 {
+    font-size: 45px;
+  }
+  
+  .register-detail p {
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration-color: #F2277E;
+    text-decoration-thickness: 5px;
+  }
+  
+  .register-detail h4 {
+    font-size: 32px;
+  }
+  
+  .register-detail .highlight-number {
+    font-size: 60px;
+    color:#FF912C; 
+    font-weight: 900;
+  }
+  
+  .register-detail h5 {
+    font-size: 28px;
+  }
